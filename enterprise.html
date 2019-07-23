@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>enterprise</title>
     <link rel="stylesheet" href="enterprise.css">
+    <link rel="stylesheet" href="./iconfont.css">
     <link rel="stylesheet" href="enterprise_commom.css">
     <link rel="stylesheet" href="/font_family/iconfont.css">
     <script src="./font_family/iconfont.js"></script>
@@ -21,11 +22,14 @@
             <div>
                 <a href="" class="logo">Start Project</a>
             </div>
-            <a href="">CONTACT</a>
-            <a href="">TEAM</a>
-            <a href="">ABOUT</a>
-            <a href="">Portfolio</a>
-            <a href="">Services</a>
+            <div class="nav-list clearfix">
+                <!-- 此处使用列表需要浮动两次 -->
+                <a href="#contact">CONTACT</a>
+                <a href="#team">TEAM</a>
+                <a href="#about">ABOUT</a>
+                <a href="#portfolio">PORTFOLIO</a>
+                <a href="#services">SERVICES</a>
+            </div>
         </nav>
         <div class="welcome layout">
             <div class="wel">
@@ -37,9 +41,9 @@
             <a href="" class="btn">TELL ME MORE</a>
         </div>
     </header>
-    <main>
-        <section class="layout">
-            <h2>SERVICES</h2>
+    <main class="layout">
+        <section>
+            <h2><a name="services">SERVICES</a></h2>
             <p class="introduce">Lorem ipsum dolor sit amet consectetur.</p>
             <ul class="service clearfix">
                 <li>
@@ -68,14 +72,15 @@
                 </li>
             </ul>
         </section>
-        <section class="layout">
-            <h2>PORTFOLIO</h2>
+        <section>
+            <h2><a name="portfolio">PORTFOLIO</a></h2>
             <p class="introduce">Lorem ipsum dolor sit amet consectetur.</p>
             <div class="container clearfix">
                 <figure>
                     <a href="">
                         <img src="/images/roundicons.png" alt="">
                         <div class="hover">
+                            <span class="iconfont icon-poweroff"></span>
                         </div>
                     </a>
                     <figcaption>Round Icons</figcaption>
@@ -85,6 +90,7 @@
                     <a href="">
                         <img src="/images/startup-framework.png" alt="">
                         <div class="hover">
+                            <span class="iconfont icon-poweroff"></span>
                         </div>
                     </a>
                     <figcaption>Startup Framework</figcaption>
@@ -94,6 +100,7 @@
                     <a href="">
                         <img src="/images/treehouse.png" alt="">
                         <div class="hover">
+                            <span class="iconfont icon-poweroff"></span>
                         </div>
                     </a>
                     <figcaption>Treehouse</figcaption>
@@ -103,6 +110,7 @@
                     <a href="">
                         <img src="/images/golden.png" alt="">
                         <div class="hover">
+                            <span class="iconfont icon-poweroff"></span>
                         </div>
                     </a>
                     <figcaption>Golden</figcaption>
@@ -112,6 +120,7 @@
                     <a href="">
                         <img src="/images/escape.png" alt="">
                         <div class="hover">
+                            <span class="iconfont icon-poweroff"></span>
                         </div>
                     </a>
                     <figcaption>Escape</figcaption>
@@ -121,6 +130,7 @@
                     <a href="">
                         <img src="/images/dreams.png" alt="">
                         <div class="hover">
+                            <span class="iconfont icon-poweroff"></span>
                         </div>
                     </a>
                     <figcaption>Dreams</figcaption>
@@ -128,8 +138,8 @@
                 </figure>
             </div>
         </section>
-        <section class="layout">
-            <h2>ABOUT</h2>
+        <section>
+            <h2><a name="about"></a>ABOUT</h2>
             <p class="introduce">Lorem ipsum dolor sit amet consectetur.</p>
             <ul class="timeline">
                 <li>
@@ -190,11 +200,127 @@
             </ul>
         </section>
         <section>
-            1
+            <div class="leader-contain">
+                <h2><a name="team"></a>OUR AMAZING TEAM</a></h2>
+                <p class="introduce">Lorem ipsum dolor sit amet consectetur.</p>
+                <ul class="leaders clearfix">
+                    <li>
+                        <figure>
+                            <img src="/images/5.jpg" alt="">
+                            <figcaption>Kay Garland</figcaption>
+                            <p>Lead Designer</p>
+                            <div class="chat">
+                                <a href="">
+                                    <span class="iconfont icon-shejiao"></span>
+                                </a>
+                                <a href="">
+                                    <span class="iconfont icon-shejiao1"></span>
+                                </a>
+                                <a href="">
+                                    <span class="iconfont icon-shejiao2"></span>
+                                </a>
+                            </div>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="/images/6.jpg" alt="">
+                            <figcaption>Larry Parker</figcaption>
+                            <p>Lead Marketer</p>
+                            <div class="chat">
+                                <a href="">
+                                    <span class="iconfont icon-shejiao"></span>
+                                </a>
+                                <a href="">
+                                    <span class="iconfont icon-shejiao1"></span>
+                                </a>
+                                <a href="">
+                                    <span class="iconfont icon-shejiao2"></span>
+                                </a>
+                            </div>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="/images/7.jpg" alt="">
+                            <figcaption>Diana Pertersen</figcaption>
+                            <p>Lead Developer</p>
+                            <div class="chat">
+                                <a href="">
+                                    <span class="iconfont icon-shejiao"></span>
+                                </a>
+                                <a href="">
+                                    <span class="iconfont icon-shejiao1"></span>
+                                </a>
+                                <a href="">
+                                    <span class="iconfont icon-shejiao2"></span>
+                                </a>
+                            </div>
+                        </figure>
+                    </li>
+                </ul>
+                <div class="introduced">
+                    Lorem ipsum dolor sit amet, consecteturadipisicing elit.
+                    Aut eaque, laboriosam veritatis, quos nonquis adperspiciatis,
+                    totam corporis ea, alias ut unde.
+                </div>
+            </div>
+            <div class="company-logo clearfix">
+                <a href="">
+                    <img src="/images/envato.jpg" alt=""></a>
+                <a href="">
+                    <img src="/images/designmodo.jpg" alt="">
+                </a>
+                <a href="">
+                    <img src="/images/themeforest.jpg" alt="">
+                </a>
+                <a href="">
+                    <img src="/images/creative-market.jpg" alt="">
+                </a>
+            </div>
         </section>
     </main>
     <footer>
-
+        <div class="contact clearfix">
+            <h2> <a name="contact">CONTACT US</a></h2>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <form action="" class="input">
+                <div class="input-area clearfix">
+                    <ul>
+                        <li>
+                            <input type="text" placeholder="Your Name *" class="code-font">
+                        </li>
+                        <li>
+                            <input type="text" placeholder="Your Email *" class="code-font">
+                        </li>
+                        <li>
+                            <input type="text" placeholder="Your Phone *" class="code-font">
+                        </li>
+                    </ul>
+                    <textarea name="" id="" placeholder="Your Message *" class="code-font"></textarea>
+                </div>
+                <button type="submit" class="code-font">SEND MESSAGE</button>
+            </form>
+        </div>
+        <div class="foo-bottom">
+            <div class="copy">Copyright © Your Website 2014</div>
+            <div class="chat">
+                <a href="">
+                    <span class="iconfont icon-shejiao"></span>
+                </a>
+                <a href="">
+                    <span class="iconfont icon-shejiao1"></span>
+                </a>
+                <a href="">
+                    <span class="iconfont icon-shejiao2"></span>
+                </a>
+            </div>
+            <div class="link">
+                <a href="">Privacy Policy</a>
+                &nbsp;
+                <a href="">Terms of Use</a>
+            </div>
+        </div>
     </footer>
 </body>
 
