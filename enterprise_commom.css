@@ -13,9 +13,6 @@ ul {
     list-style: none;
 }
 
-/* 
-把main的高度定死了，导致footer跑到页面上面去了
-*/
 html,
 body {
     height: 100%;
